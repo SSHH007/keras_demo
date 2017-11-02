@@ -20,7 +20,7 @@ export PATH=/usr/local/sbin:/usr/sbin:/sbin/bin:/usr/bin:/usr/local/bin:/usr/loc
 ### install keras + tensorflow + other useful packages
 ###
 apt-get update
-apt-get install -y libhdf5-dev graphviz locales python-dev python-pip
+apt-get install -y libhdf5-dev graphviz locales python3-dev python3-pip
 locale-gen en_US.UTF-8
 apt-get clean
 
